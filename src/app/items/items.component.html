@@ -1,0 +1,23 @@
+<div class="main-section">
+    <p class="header-txt">WORK TO-DOS</p>
+    <p class="nav-item">Enter text into the input field to add items to your list.</p>
+    <p class="nav-item mark-txt">Click the item to mark it as complete.</p>
+    <p class="nav-item remove-txt">Click the "X" to remove the item from your list.</p>
+    <div>
+        <div>
+            <div class="item-input-wrapper">
+                <span class="input-adjustment"><input class="item-input" [(ngModel)]="itemValue" placeholder="New item..." type="text" (keyup)="onItemAddition($event)">
+                </span>
+            </div>
+            <div class="keyboard-image-wrapper">
+                <img src="assets/images/keyboard.png" class="keyboard-btn">
+            </div>
+            <div class="image-wrapper">
+                <img src="assets/images/edit.jpg" class="add-btn" (click)="addItems()">
+            </div>
+        </div>
+        <ul style="list-style: none;" *ngFor="let item of allItems; let i = index">
+        <li>{{item.name}}<span class="item-remove-btn" (click)="removeItems(i)">X</span></li>
+        </ul>
+    </div>
+</div>

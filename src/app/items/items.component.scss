@@ -1,0 +1,88 @@
+.main-section{
+    background : #7199ff;
+    text-align: center;
+    height: 100vh;
+}
+.header-txt {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+.nav-item{
+    color: #ffc02e;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.mark-txt {
+    color: #12da72;
+}
+.remove-txt {
+    color: black;
+    font-size: 18px;
+}
+.item-input {
+    padding:8px;
+    width: 440px;
+    border:none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.item-input-wrapper {
+    display: inline-block;
+    padding-top:10px;
+}
+.input-adjustment {
+    float:left;
+}
+.image-wrapper {
+    /* text-align: center; */
+    display: inline-block;
+    margin-left:5px;
+    cursor: pointer;
+}
+.keyboard-image-wrapper {
+    display: inline-block;
+    margin-left: -30px;
+}
+li {
+    list-style-position:inside;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 400px;
+    background:#7ee4eb;
+    color: white;
+    padding: 10px;
+    font-size:20px;
+    border-radius: 5px;
+    text-align: left;
+    margin-right: 40px;
+    text-transform: capitalize;
+}
+.item-remove-btn{
+ cursor: pointer;
+ color: black;
+ float: right;
+}
+.add-btn{
+    border:none;
+    margin-left: 5px;
+    width: 44px;
+    border-radius: 3px;
+    display: inline-block;
+    height:36px;
+}
+.keyboard-btn {
+    height:25px;
+    width: 20px;
+    margin-bottom: 5px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
